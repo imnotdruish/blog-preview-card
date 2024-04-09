@@ -94,11 +94,13 @@ main {
   transition-duration: var(--duration);
 }
 
-.course__title a:hover {
+.course__title a:hover,
+.course__title a:focus {
   color: var(--primary-color);
 }
 
-.course__title a:hover::before {
+.course__title a:hover::before,
+.course__title a:focus::before {
   box-shadow: 20px 20px 0 0 var(--neutral-dark);
 }
 
